@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/fizz-buzz/
+
+
 def fizzBuzz(n):
     '''
         answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
@@ -20,4 +23,9 @@ def fizzBuzz(n):
             
     return res
 
+
+t = int(input("Test Cases:"))
+for _ in range(t):
+    n = int(input("Enter n:"))
+    print(fizzBuzz(n))
 
