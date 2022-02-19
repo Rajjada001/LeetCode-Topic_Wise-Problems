@@ -24,15 +24,16 @@ def longest_common_prefix(s):
     # We just need to compare only maximum and minimum length elements. 
     # If there are any common points, keep iterating.
     # Once the elements mismatched, we will return the array till the mis matched element.
+    if not s: return ""
     s1,s2 = min(s),max(s)
-    print(s1,s2)
+    # print(s1,s2)
     i = 0
     while(i<len(s1)):
         if s1[i] != s2[i]:
             return s1[:i]
         i+=1
     
-    return ""
+    return s1
 
 
 print(longest_common_prefix(["flower","flow","flight"]))
