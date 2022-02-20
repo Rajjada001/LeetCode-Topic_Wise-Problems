@@ -1,14 +1,14 @@
 # LeetCode-Topic_Wise-Problems
 
-- Arrays
+-- Integers
 
-- Strings
+-- Strings
 
-- Searching
+-- Searching
 
-- Sorting
+-- Sorting
 
-- Two Pointers
+-- Two Pointers
 
-- Sliding Window
+-- Sliding Window
 
