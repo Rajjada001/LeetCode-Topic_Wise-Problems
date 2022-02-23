@@ -1,14 +1,12 @@
 # LeetCode-Topic_Wise-Problems
 
-- Integers
+## Phase 1
 
-- Strings
+    - Two Pointers
+    - Sliding Window
+    - Binary Search
+    - Fast and Slow Pointers
 
-- Searching
 
-- Sorting
 
-- Two Pointers
-
-- Sliding Window
 
